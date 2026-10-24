@@ -35,7 +35,8 @@
     "map:refresh": "sigmap",
     "map:report": "sigmap --report --json",
     "map:watch": "sigmap daemon start",
-    "map:setup": "sigmap --setup"
+    "map:setup": "sigmap --setup",
+    "prepare": "pnpm build"
   },
   "publishConfig": {
     "access": "public"
